@@ -1,26 +1,29 @@
+body {
+  background-image: url(cool-soccer-xx9ly9v0yostbag2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0; /* Remove default margin */
+}
+
 .container {
   max-width: 400px;
   margin: auto;
   padding: 20px;
   border: 2px solid #333;
   border-radius: 10px; /* Optional: Add rounded corners */
-}
-
-body {
-  background-image: url(cool-soccer-xx9ly9v0yostbag2.jpg);
-  background-size: cover;
-  font-weight: bold;
-  text-align: center;
-  font-family: sans-serif;
-}
-
-h1 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Optional: Add a semi-transparent background */
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 2em; /* Use relative units for font size */
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -28,30 +31,26 @@ h2 {
 button {
   display: block;
   width: 100%;
-  padding: 10px;
+  padding: 15px; /* Increase padding for better touch interaction */
   margin-bottom: 10px;
-  border: 1px solid #333;
-  border-radius: 5px;
+  border: 2px solid #333;
+  border-radius: 8px; /* Make buttons slightly more rounded */
   cursor: pointer;
-}
-p#save-el {
-  border-top: 2px solid #333;
-  padding-top: 10px;
-  margin-top: 20px;
+  font-size: 1em; /* Use relative units for font size */
 }
 
-/* Style the saved entries */
-#save-el span {
-  display: block;
-  margin-bottom: 5px;
+#save-el {
+  border-top: 2px solid #333;
+  padding-top: 15px; /* Increase padding for better spacing */
+  margin-top: 20px;
 }
 
 #button-btn {
   background-color: red;
-  color: black;
+  color: white; /* Improve contrast for better readability */
 }
 
 #save-btn {
   background-color: green;
-  color: black;
+  color: white; /* Improve contrast for better readability */
 }
